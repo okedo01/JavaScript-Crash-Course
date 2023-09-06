@@ -78,12 +78,38 @@ let email = 'eliahmwelangi01@gmail.com';
 
 // let results = email.includes('!');
 
-let names = ['stallion', 'okedo', 'sparrow'];
-let results = names.includes('okedo');
+// let names = ['stallion', 'okedo', 'sparrow'];
+// let results = names.includes('okedo');
 
-let age = 29;
+// let age = 29;
 
-console.log(age == 30);
-console.log(age != 19);
-console.log(age >= 23);
+// console.log(age == 30);
+// console.log(age != 19);
+// console.log(age >= 23);
+
+// let names = 'eliah';
+// console.log(names == 'eliah');
+// console.log(names == 'Eliah');
+// console.log(names > 'okedo');
+// console.log(names > 'Okedo');
+
+// Javascript is a loosely comparison
+// let age = 23;
+
+// console.log(age == 23);
+// console.log(age == '23');
+
+// use === to make it strictly comparison
+// console.log(age === 23);
+// console.log(age === '23');
+
+// type conversion
+let score = '100';
+
+score = Number(score);
+console.log(typeof score);
+console.log(score + 1);
+
+
+
 
