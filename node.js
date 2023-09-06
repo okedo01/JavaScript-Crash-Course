@@ -141,11 +141,21 @@ let score = "100";
 // }
 
 
-const names = ['marvel', 'stallion', 'okedo', 'sparrow'];
+// const names = ['marvel', 'stallion', 'okedo', 'sparrow'];
 
-let i = 0;
+// let i = 0;
 
-while(i < names.length){
+// while(i < names.length){
+//     i++;
+//     console.log(names[i]);
+// }
+
+// Do While loop
+let i = 2;
+
+do{
+    console.log('value of i is:', i);
     i++;
-    console.log(names[i]);
 }
+
+while(i < 5);
