@@ -69,7 +69,7 @@ let random = ['shaun', 'ryu', 'chun-li', 30, 60];
 // console.log(age, age + 3, `the age is ${age}`);
 
 // boolean
-console.log(true, false, 'true', 'false');
+// console.log(true, false, 'true', 'false');
 
 // boolean methods
 let email = 'eliahmwelangi01@gmail.com';
@@ -106,9 +106,19 @@ let email = 'eliahmwelangi01@gmail.com';
 // type conversion
 let score = '100';
 
-score = Number(score);
-console.log(typeof score);
-console.log(score + 1);
+// score = Number(score);
+// console.log(typeof score);
+// console.log(score + 1);
+
+// let result = Number('hello');
+// let result = Number(32);
+
+// let result = String(50);
+
+// let result = Boolean(0);
+
+let result = Boolean('');
+console.log(result, typeof result);
 
 
 
