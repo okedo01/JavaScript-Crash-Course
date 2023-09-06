@@ -80,5 +80,10 @@ let email = 'eliahmwelangi01@gmail.com';
 
 let names = ['stallion', 'okedo', 'sparrow'];
 let results = names.includes('okedo');
-console.log(results);
+
+let age = 29;
+
+console.log(age == 30);
+console.log(age != 19);
+console.log(age >= 23);
 
