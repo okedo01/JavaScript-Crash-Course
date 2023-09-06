@@ -49,8 +49,8 @@ const likes = 30;
 // console.log(html);
 
 // arrey
-let ninjas = ["shaun", "ryu", "chun-li"];
-ninjas[1] = "ken";
+// let ninjas = ["shaun", "ryu", "chun-li"];
+// ninjas[1] = "ken";
 // console.log(ninjas);
 
 let random = ["shaun", "ryu", "chun-li", 30, 60];
@@ -151,11 +151,39 @@ let score = "100";
 // }
 
 // Do While loop
-let i = 2;
+// let i = 2;
 
-do{
-    console.log('value of i is:', i);
-    i++;
+// do{
+//     console.log('value of i is:', i);
+//     i++;
+// }
+
+// while(i < 5);
+
+// conditional statements
+
+// let age = 26;
+
+// if(age > 25){
+// console.log('you are not allowed')
+// }
+
+// const ninjas = ['shawn', 'ryu', 'chun-li', 'yoshi'];
+
+// if(ninjas.length > 3){
+//     console.log("that's a lot of ninjas");
+// }
+
+const password = 'pass';
+
+if(password.length >= 12){
+    console.log('password is might strong');
 }
 
-while(i < 5);
+else if(password.length >= 8){
+    console.log('the password is long enough')
+}
+
+else{
+    console.log('password is not long')
+}
