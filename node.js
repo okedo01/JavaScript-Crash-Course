@@ -117,9 +117,11 @@ let score = '100';
 
 // let result = Boolean(0);
 
-let result = Boolean('');
-console.log(result, typeof result);
+// let result = Boolean('');
+// console.log(result, typeof result);
 
-
-
-
+// for loops
+for(let i = 0; i < 5; i++){
+    console.log('in loop:', i)
+}
+console.log('loop finished');
