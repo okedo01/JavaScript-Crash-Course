@@ -29,8 +29,8 @@
 // let result = fullName.toLowerCase();
 // console.log(result);
 
-const title = 'Best reads of 2019';
-const author = 'okedo';
+const title = "Best reads of 2019";
+const author = "okedo";
 const likes = 30;
 
 // concatenation
@@ -49,11 +49,11 @@ const likes = 30;
 // console.log(html);
 
 // arrey
-let ninjas = ['shaun', 'ryu', 'chun-li'];
-ninjas[1] = 'ken';
+let ninjas = ["shaun", "ryu", "chun-li"];
+ninjas[1] = "ken";
 // console.log(ninjas);
 
-let random = ['shaun', 'ryu', 'chun-li', 30, 60];
+let random = ["shaun", "ryu", "chun-li", 30, 60];
 // console.log(random.length);
 
 // array methods
@@ -72,7 +72,7 @@ let random = ['shaun', 'ryu', 'chun-li', 30, 60];
 // console.log(true, false, 'true', 'false');
 
 // boolean methods
-let email = 'eliahmwelangi01@gmail.com';
+let email = "eliahmwelangi01@gmail.com";
 
 // let results = email.includes('@');
 
@@ -104,7 +104,7 @@ let email = 'eliahmwelangi01@gmail.com';
 // console.log(age === '23');
 
 // type conversion
-let score = '100';
+let score = "100";
 
 // score = Number(score);
 // console.log(typeof score);
@@ -126,9 +126,26 @@ let score = '100';
 // }
 // console.log('loop finished');
 
+// const names = ['marvel', 'stallion', 'okedo', 'sparrow'];
+// for(let i = 0; i < names.length; i++){
+// //    console.log(names[i]);
+// let html = `<div> ${names[i]} </div>`
+// console.log(html);
+// }
+
+// while loop
+// let i = 0;
+// while (i < 5) {
+//     i++;
+//     console.log(i);
+// }
+
+
 const names = ['marvel', 'stallion', 'okedo', 'sparrow'];
-for(let i = 0; i < names.length; i++){
-//    console.log(names[i]);
-let html = `<div> ${names[i]} </div>`
-console.log(html);
+
+let i = 0;
+
+while(i < names.length){
+    i++;
+    console.log(names[i]);
 }
