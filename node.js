@@ -237,29 +237,50 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 // switch statements
 
 // test grade
-const grades = "W";
+// const grades = "W";
 
-switch (grades) {
-  case "A":
-    console.log("your grade is A!");
-    break;
+// switch (grades) {
+//   case "A":
+//     console.log("your grade is A!");
+//     break;
 
-  case "B":
-    console.log("your grade is B!");
-    break;
+//   case "B":
+//     console.log("your grade is B!");
+//     break;
 
-  case "C":
-    console.log("your grade is C!");
-    break;
+//   case "C":
+//     console.log("your grade is C!");
+//     break;
 
-  case "D":
-    console.log("your grade is D!");
-    break;
+//   case "D":
+//     console.log("your grade is D!");
+//     break;
 
-  case "E":
-    console.log("your grade is E!");
-    break;
+//   case "E":
+//     console.log("your grade is E!");
+//     break;
 
-  default:
-    console.log("Please, enter a valid grade!");
+//   default:
+//     console.log("Please, enter a valid grade!");
+// }
+
+// variables and block scope
+
+// global scope
+let age = 30;
+
+if (true) {
+
+  // local scope
+  let age = 40;
+
+  console.log("inside the block: ", age);
+
+  if(true){
+
+    console.log('inside another code block: ', age);
+  }
+
 }
+
+console.log("outside the block: ",age);
