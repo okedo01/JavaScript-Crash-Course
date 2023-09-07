@@ -140,7 +140,6 @@
 //     console.log(i);
 // }
 
-
 // const names = ['marvel', 'stallion', 'okedo', 'sparrow'];
 
 // let i = 0;
@@ -222,15 +221,45 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 //     }
 // }
 // continue
-for(let i =0; i < scores.length; i++){
+// for(let i =0; i < scores.length; i++){
 
-    if(scores[i] === 0){
-        continue;
-    }
-    console.log('your score is: ', scores[i]);
+//     if(scores[i] === 0){
+//         continue;
+//     }
+//     console.log('your score is: ', scores[i]);
 
-    if(scores[i] === 100){
-        console.log('congrats, you have got the highest score. ');
-        break;
-    }
+//     if(scores[i] === 100){
+//         console.log('congrats, you have got the highest score. ');
+//         break;
+//     }
+// }
+
+// switch statements
+
+// test grade
+const grades = "W";
+
+switch (grades) {
+  case "A":
+    console.log("your grade is A!");
+    break;
+
+  case "B":
+    console.log("your grade is B!");
+    break;
+
+  case "C":
+    console.log("your grade is C!");
+    break;
+
+  case "D":
+    console.log("your grade is D!");
+    break;
+
+  case "E":
+    console.log("your grade is E!");
+    break;
+
+  default:
+    console.log("Please, enter a valid grade!");
 }
