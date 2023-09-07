@@ -267,22 +267,35 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 // variables and block scope
 
 // global scope
-let age = 30;
-let name = 'marvel';
-if (true) {
+// let age = 30;
+// let name = 'marvel';
+// if (true) {
 
   // local scope
-  let age = 40;
-  let name = 'okedo';
+//   let age = 40;
+//   let name = 'okedo';
 
-  console.log('inside the block: ', age, name);
+//   console.log('inside the block: ', age, name);
 
-  if(true){
+//   if(true){
 
-    let age = 50;
-    console.log('inside another code block: ', age, name);
-  }
+//     let age = 50;
+//     console.log('inside another code block: ', age, name);
+//   }
 
+// }
+
+// console.log('outside the block: ',age, name);
+
+// functions
+
+// function declaration
+function greet(){
+    console.log('hello there!');
 }
 
-console.log('outside the block: ',age, name);
+greet();
+greet();
+greet();
+
+
