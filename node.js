@@ -29,9 +29,9 @@
 // let result = fullName.toLowerCase();
 // console.log(result);
 
-const title = "Best reads of 2019";
-const author = "okedo";
-const likes = 30;
+// const title = "Best reads of 2019";
+// const author = "okedo";
+// const likes = 30;
 
 // concatenation
 // console.log('The blog called ' +title +' written by ' +author +' having  ' +likes +' likes');
@@ -53,7 +53,7 @@ const likes = 30;
 // ninjas[1] = "ken";
 // console.log(ninjas);
 
-let random = ["shaun", "ryu", "chun-li", 30, 60];
+// let random = ["shaun", "ryu", "chun-li", 30, 60];
 // console.log(random.length);
 
 // array methods
@@ -72,7 +72,7 @@ let random = ["shaun", "ryu", "chun-li", 30, 60];
 // console.log(true, false, 'true', 'false');
 
 // boolean methods
-let email = "eliahmwelangi01@gmail.com";
+// let email = "eliahmwelangi01@gmail.com";
 
 // let results = email.includes('@');
 
@@ -104,7 +104,7 @@ let email = "eliahmwelangi01@gmail.com";
 // console.log(age === '23');
 
 // type conversion
-let score = "100";
+// let score = "100";
 
 // score = Number(score);
 // console.log(typeof score);
@@ -189,16 +189,48 @@ let score = "100";
 // }
 
 // logical operators
-const password = 'p@ss';
+// const password = 'p@ss';
 
-if(password.length >= 12 && password.includes('@')){
-    console.log('password is might strong');
-}
+// if(password.length >= 12 && password.includes('@')){
+//     console.log('password is might strong');
+// }
 
-else if(password.length >= 8 || password.includes('@')){
-    console.log('the password is strong enough');
-}
+// else if(password.length >= 8 || password.includes('@')){
+//     console.log('the password is strong enough');
+// }
 
-else{
-    console.log('password is not strong');
+// else{
+//     console.log('password is not strong');
+// }
+
+// logical NOT
+
+// let user = false;
+// if(!user){
+//     console.log('you must be logged in to continue');
+// }
+
+// breaking and continue
+
+const scores = [50, 25, 0, 30, 100, 20, 10];
+// break
+// for(let i = 0; i < scores.length; i++){
+//     console.log(scores[i]);
+//     if(scores[i] === 100){
+//         console.log('congrats, you have got the highest score');
+//         break;
+//     }
+// }
+// continue
+for(let i =0; i < scores.length; i++){
+
+    if(scores[i] === 0){
+        continue;
+    }
+    console.log('your score is: ', scores[i]);
+
+    if(scores[i] === 100){
+        console.log('congrats, you have got the highest score. ');
+        break;
+    }
 }
