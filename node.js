@@ -268,19 +268,21 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 
 // global scope
 let age = 30;
-
+let name = 'marvel';
 if (true) {
 
   // local scope
   let age = 40;
+  let name = 'okedo';
 
-  console.log("inside the block: ", age);
+  console.log('inside the block: ', age, name);
 
   if(true){
 
-    console.log('inside another code block: ', age);
+    let age = 50;
+    console.log('inside another code block: ', age, name);
   }
 
 }
 
-console.log("outside the block: ",age);
+console.log('outside the block: ',age, name);
