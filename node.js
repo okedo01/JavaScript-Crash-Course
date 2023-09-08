@@ -342,12 +342,12 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 
 // returning value
 
-const calcArea = function (radius) {
-  return 3.14 * radius ** 2;
-};
+// const calcArea = function (radius) {
+//   return 3.14 * radius ** 2;
+// };
 
-const area = calcArea(5);
-console.log(area);
+// const area = calcArea(5);
+// console.log(area);
 
 // const calcVol = function (area, radius) {
 //   let volume = area * radius;
@@ -357,3 +357,10 @@ console.log(area);
 
 // const volume = calcVol(area);
 // console.log(volume);
+
+// arrow functions
+
+const calcArea = radius => 3.14 * radius**2;
+
+const area = calcArea(4);
+console.log(area);
