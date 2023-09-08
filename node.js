@@ -333,8 +333,18 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 
 // function expression
 
-const speak = function(name = 'okedo', time ='morning'){
-  console.log(`good ${time} ${name}`);
-}
+// const speak = function(name = 'okedo', time ='morning'){
+//   console.log(`good ${time} ${name}`);
+// }
 
-speak();
+// speak();
+// speak('marvel')
+
+// returning value
+
+const calcArea = function(radius){
+  let area = 3.14 * radius**2;
+  console.log(area);
+};
+
+calcArea(5);
