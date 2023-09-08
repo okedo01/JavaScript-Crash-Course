@@ -344,7 +344,8 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 
 const calcArea = function(radius){
   let area = 3.14 * radius**2;
-  console.log(area);
+  return area;
 };
 
-calcArea(5);
+const area = calcArea(5);
+console.log(area);
