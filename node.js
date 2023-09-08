@@ -271,7 +271,7 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 // let name = 'marvel';
 // if (true) {
 
-  // local scope
+// local scope
 //   let age = 40;
 //   let name = 'okedo';
 
@@ -342,10 +342,18 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 
 // returning value
 
-const calcArea = function(radius){
-  let area = 3.14 * radius**2;
-  return area;
+const calcArea = function (radius) {
+  return 3.14 * radius ** 2;
 };
 
 const area = calcArea(5);
 console.log(area);
+
+// const calcVol = function (area, radius) {
+//   let volume = area * radius;
+//   // console.log(volume);
+//   return volume;
+// };
+
+// const volume = calcVol(area);
+// console.log(volume);
