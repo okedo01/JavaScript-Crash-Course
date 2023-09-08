@@ -322,11 +322,19 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 
 // function expression
 
-speak();
-speak();
-speak();
-speak();
+// speak();
+// speak();
+// speak();
+// speak();
 
-const speak = function(){
-  console.log('good day');
-};
+// const speak = function(){
+//   console.log('good day');
+// };
+
+// function expression
+
+const speak = function(name){
+  console.log(`good day! ${name}`);
+}
+
+speak('okedo');
