@@ -402,19 +402,31 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 // console.log(result);
 
 // functions and methods
-const name = 'okedo';
+// const name = 'okedo';
 
 // function
 
-const greet = () => 'hello';
+// const greet = () => 'hello';
 
-let resultOne = greet();
-console.log(resultOne);
+// let resultOne = greet();
+// console.log(resultOne);
 
-// method
+// // method
 
-let resultTwo = name.toUpperCase();
-console.log(resultTwo);
+// let resultTwo = name.toUpperCase();
+// console.log(resultTwo);
+
+// callback function and foreach
+
+const myFunct = (callbackFunc) => {
+  let value = 50;
+  callbackFunc(value);
+};
+
+myFunct (value => {
+
+  console.log(value);
+});
 
 
 
