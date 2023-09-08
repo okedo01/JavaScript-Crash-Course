@@ -211,7 +211,7 @@
 
 // breaking and continue
 
-const scores = [50, 25, 0, 30, 100, 20, 10];
+// const scores = [50, 25, 0, 30, 100, 20, 10];
 // break
 // for(let i = 0; i < scores.length; i++){
 //     console.log(scores[i]);
@@ -418,15 +418,25 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 
 // callback function and foreach
 
-const myFunct = (callbackFunc) => {
-  let value = 50;
-  callbackFunc(value);
+// const myFunct = (callbackFunc) => {
+//   let value = 50;
+//   callbackFunc(value);
+// };
+
+// myFunct (value => {
+
+//   console.log(value);
+// });
+
+// foreach
+
+let people = ['marvel', 'stallion', 'okedo', 'sparrow', 'shaun']
+
+const logPerson = function(person, index){
+console.log(`${index}. hello ${person}`)
 };
 
-myFunct (value => {
-
-  console.log(value);
-});
+people.forEach(logPerson);
 
 
 
