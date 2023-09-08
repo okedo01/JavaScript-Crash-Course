@@ -333,8 +333,8 @@ const scores = [50, 25, 0, 30, 100, 20, 10];
 
 // function expression
 
-const speak = function(name){
-  console.log(`good day! ${name}`);
+const speak = function(name = 'okedo', time ='morning'){
+  console.log(`good ${time} ${name}`);
 }
 
-speak('okedo');
+speak();
