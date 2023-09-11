@@ -531,16 +531,27 @@
 
 // reference types
 
-const userOne = {
-    name: 'okedo',
-    age: 30,
-}
+// const userOne = {
+//     name: 'okedo',
+//     age: 30,
+// }
 
-const userTwo = userOne;
+// const userTwo = userOne;
 
-console.log(userOne, userTwo);
+// console.log(userOne, userTwo);
 
-userOne.age = 50;
+// userOne.age = 50;
 
-console.log(userOne, userTwo);
+// console.log(userOne, userTwo);
+
+// DOM
+
+const para = document.querySelector('div.error');
+
+console.log(para);
+
+const paras = document.querySelectorAll('p');
+
+console.log(paras[1]);
+
 
