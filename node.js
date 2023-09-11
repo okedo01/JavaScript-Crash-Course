@@ -573,6 +573,7 @@ const error = document.getElementsByClassName('error');
 
 console.log(error);
 
+// you cant use foreach method in HTML collection
 error.forEach(function(errors){
     console.log(errors);
 })
