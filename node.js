@@ -458,6 +458,22 @@ let user = {
     age: 23,
     email: 'okedo@marvel.com',
     location: 'uk',
+    blogs: ['10 things about Okedo,', 'features of blogs', 'learn js'],
+
+    login(){
+        console.log('the user logged in')
+    },
+
+    logout(){
+        console.log('the user logged out')
+    },
+
+    logBlogs(){
+        // console.log(this.blogs);
+        this.blogs.forEach((index, blogs) => {
+            console.log(blogs, index)
+        })
+    }
 };
 
 user.name = 'marvel';
@@ -467,6 +483,11 @@ console.log(user.name);
 console.log(user['email']);
 
 console.log(typeof user)
+
+user.login();
+user.logout();
+user.logBlogs();
+// console.log(this)
 
 
 
