@@ -432,11 +432,16 @@
 
 let people = ['marvel', 'stallion', 'okedo', 'sparrow', 'shaun']
 
-const logPerson = function(person, index){
-console.log(`${index}. hello ${person}`)
-};
+const logPerson = (person, index) => {
+    console.log(`${index} ${person}`)
+}
+people.forEach(logPerson); //callback function;
 
-people.forEach(logPerson);
+// const logPerson = (person, index) => {
+// console.log(`${index}. hello ${person}`)
+// };
+
+// people.forEach(logPerson);
 
 
 
