@@ -546,19 +546,28 @@
 
 // DOM
 
+// query selector
 // const para = document.querySelector('div.error');
 
 // console.log(para);
 
-const paras = document.querySelectorAll('p');
+// const paras = document.querySelectorAll('p');
 
 // console.log(paras[1]);
 
-paras.forEach(para => {
-    console.log(para);
-})
+// paras.forEach(para => {
+//     console.log(para);
+// })
 
-const errors = document.querySelectorAll('.error');
+// const errors = document.querySelectorAll('.error');
 
-console.log(errors);
+// console.log(errors);
+
+// get elements by ID
+
+const title = document.getElementById('page-title');
+
+console.log(title);
+
+
 
