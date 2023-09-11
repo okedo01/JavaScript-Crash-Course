@@ -453,31 +453,31 @@
 
 // object literals
 
-let user = {
-    name: 'okedo',
-    age: 23,
-    email: 'okedo@marvel.com',
-    location: 'uk',
-    blogs: [
-        {title: '10 things about Okedo', likes: 30},
-        {title: 'learn js', likes: 50},
-    ],
+// let user = {
+//     name: 'okedo',
+//     age: 23,
+//     email: 'okedo@marvel.com',
+//     location: 'uk',
+//     blogs: [
+//         {title: '10 things about Okedo', likes: 30},
+//         {title: 'learn js', likes: 50},
+//     ],
 
-    login(){
-        console.log('the user logged in')
-    },
+//     login(){
+//         console.log('the user logged in')
+//     },
 
-    logout(){
-        console.log('the user logged out')
-    },
+//     logout(){
+//         console.log('the user logged out')
+//     },
 
-    logBlogs(){
-        console.log('This user has written the following blogs:');
-        this.blogs.forEach((blogs) => {
-            console.log(blogs.title, blogs.likes);
-        })
-    }
-};
+//     logBlogs(){
+//         console.log('This user has written the following blogs:');
+//         this.blogs.forEach((blogs) => {
+//             console.log(blogs.title, blogs.likes);
+//         })
+//     }
+// };
 
 // user.name = 'marvel';
 
@@ -489,7 +489,7 @@ let user = {
 
 // user.login();
 // user.logout();
-user.logBlogs();
+// user.logBlogs();
 // console.log(this)
 
 // const blogs = [
@@ -498,6 +498,18 @@ user.logBlogs();
 // ];
 
 // console.log(blogs)
+
+// Math object
+
+console.log(Math);
+console.log(Math.PI);
+
+const area = 9.5;
+console.log(Math.round(area));
+
+console.log(Math.floor(area));
+console.log(Math.ceil(area));
+console.log(Math.trunc(area));
 
 
 
