@@ -520,12 +520,27 @@
 
 // primitive types
 
-let scoreOne = 50;
-let scoreTwo = scoreOne;
+// let scoreOne = 50;
+// let scoreTwo = scoreOne;
 
-console.log(`score one is ${scoreOne}, score two is ${scoreTwo}`);
+// console.log(`score one is ${scoreOne}, score two is ${scoreTwo}`);
 
-scoreOne = 100;
+// scoreOne = 100;
 
-console.log(`score one is ${scoreOne}, score two is ${scoreTwo}`);
+// console.log(`score one is ${scoreOne}, score two is ${scoreTwo}`);
+
+// reference types
+
+const userOne = {
+    name: 'okedo',
+    age: 30,
+}
+
+const userTwo = userOne;
+
+console.log(userOne, userTwo);
+
+userOne.age = 50;
+
+console.log(userOne, userTwo);
 
