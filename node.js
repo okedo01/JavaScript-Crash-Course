@@ -512,7 +512,20 @@
 // console.log(Math.trunc(area));
 
 // random numbers
-const random = Math.random();
-console.log(random);
-console.log(Math.round(random * 100))
+// const random = Math.random();
+// console.log(random);
+// console.log(Math.round(random * 100))
+
+// primitive and reference types
+
+// primitive types
+
+let scoreOne = 50;
+let scoreTwo = scoreOne;
+
+console.log(`score one is ${scoreOne}, score two is ${scoreTwo}`);
+
+scoreOne = 100;
+
+console.log(`score one is ${scoreOne}, score two is ${scoreTwo}`);
 
