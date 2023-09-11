@@ -573,3 +573,9 @@ const error = document.getElementsByClassName('error');
 
 console.log(error);
 
+error.forEach(function(errors){
+    console.log(errors);
+})
+    
+
+
