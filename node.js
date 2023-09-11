@@ -430,18 +430,26 @@
 
 // foreach
 
-let people = ['marvel', 'stallion', 'okedo', 'sparrow', 'shaun']
-
-const logPerson = (person, index) => {
-    console.log(`${index} ${person}`)
-}
-people.forEach(logPerson); //callback function;
+// let people = ['marvel', 'stallion', 'okedo', 'sparrow', 'shaun']
 
 // const logPerson = (person, index) => {
-// console.log(`${index}. hello ${person}`)
-// };
+//     console.log(`${index} ${person}`)
+// }
+// people.forEach(logPerson); //callback function;
 
-// people.forEach(logPerson);
+const ul = document.querySelector('.people');
+
+const person = ['marvel', 'stallion', 'okedo', 'sparrow', 'shaun'];
+
+let html = ``;
+
+person.forEach(person => {
+    // create html templete
+    html += `<li style = "color: purple;> ${person} </li>`
+});
+    
+console.log(html);
+ul.innerHTML = html;
 
 
 
