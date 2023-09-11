@@ -489,5 +489,12 @@ user.logout();
 user.logBlogs();
 // console.log(this)
 
+const blogs = [
+    {title: '10 things about Okedo', likes: 30},
+    {title: 'learn js', likes: 50},
+];
+
+console.log(blogs)
+
 
 
