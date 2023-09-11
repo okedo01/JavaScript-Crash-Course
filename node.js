@@ -437,19 +437,36 @@
 // }
 // people.forEach(logPerson); //callback function;
 
-const ul = document.querySelector('.people');
+// const ul = document.querySelector('.people');
 
-const person = ['marvel', 'stallion', 'okedo', 'sparrow', 'shaun'];
+// const person = ['marvel', 'stallion', 'okedo', 'sparrow', 'shaun'];
 
-let html = ``;
+// let html = ``;
 
-person.forEach(person => {
-    // create html templete
-    html += `<li style = "color: purple;> ${person} </li>`
-});
+// person.forEach(person => {
+//     // create html templete
+//     html += `<li style = "color: purple";> ${person} </li>`;
+// });
     
-console.log(html);
-ul.innerHTML = html;
+// console.log(html);
+// ul.innerHTML = html;
+
+// object literals
+
+let user = {
+    name: 'okedo',
+    age: 23,
+    email: 'okedo@marvel.com',
+    location: 'uk',
+};
+
+user.name = 'marvel';
+
+console.log(user);
+console.log(user.name);
+console.log(user['email']);
+
+console.log(typeof user)
 
 
 
