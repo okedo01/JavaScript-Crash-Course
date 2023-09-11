@@ -565,9 +565,11 @@
 
 // get elements by ID
 
-const title = document.getElementById('page-title');
+// const title = document.getElementById('page-title');
 
-console.log(title);
+// console.log(title);
 
+const error = document.getElementsByClassName('error');
 
+console.log(error);
 
