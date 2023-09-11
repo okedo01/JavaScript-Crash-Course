@@ -546,12 +546,15 @@
 
 // DOM
 
-const para = document.querySelector('div.error');
+// const para = document.querySelector('div.error');
 
-console.log(para);
+// console.log(para);
 
 const paras = document.querySelectorAll('p');
 
-console.log(paras[1]);
+// console.log(paras[1]);
 
+paras.forEach(para => {
+    console.log(para);
+})
 
