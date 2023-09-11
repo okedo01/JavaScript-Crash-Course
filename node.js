@@ -458,7 +458,10 @@ let user = {
     age: 23,
     email: 'okedo@marvel.com',
     location: 'uk',
-    blogs: ['10 things about Okedo,', 'features of blogs', 'learn js'],
+    blogs: [
+        {title: '10 things about Okedo', likes: 30},
+        {title: 'learn js', likes: 50},
+    ],
 
     login(){
         console.log('the user logged in')
@@ -469,32 +472,32 @@ let user = {
     },
 
     logBlogs(){
-        // console.log(this.blogs);
-        this.blogs.forEach((index, blogs) => {
-            console.log(blogs, index)
+        console.log('This user has written the following blogs:');
+        this.blogs.forEach((blogs) => {
+            console.log(blogs.title, blogs.likes);
         })
     }
 };
 
-user.name = 'marvel';
+// user.name = 'marvel';
 
-console.log(user);
-console.log(user.name);
-console.log(user['email']);
+// console.log(user);
+// console.log(user.name);
+// console.log(user['email']);
 
-console.log(typeof user)
+// console.log(typeof user)
 
-user.login();
-user.logout();
+// user.login();
+// user.logout();
 user.logBlogs();
 // console.log(this)
 
-const blogs = [
-    {title: '10 things about Okedo', likes: 30},
-    {title: 'learn js', likes: 50},
-];
+// const blogs = [
+//     {title: '10 things about Okedo', likes: 30},
+//     {title: 'learn js', likes: 50},
+// ];
 
-console.log(blogs)
+// console.log(blogs)
 
 
 
