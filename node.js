@@ -608,6 +608,22 @@ const content = document.querySelector(".content");
 
 const person = ["marvel", "stallion", "okedo", "sparrow", "shaun"];
 
-person.forEach((people) => {
-    content.innerHTML += `<p> ${people}</p>`;
-});
+// person.forEach(people => {
+//     content.innerHTML += `<p> ${people}</p>`;
+// });
+
+// const link = document.querySelector('a');
+
+// console.log(link.getAttribute('href'));
+
+// link.setAttribute('href', 'https://www.frontendmentor.io');
+
+// link.innerText = 'frontend mentor';
+
+const error = document.querySelector('.error');
+
+console.log(error.getAttribute('class'));
+
+error.setAttribute('class', 'comment')
+
+error.setAttribute('style', 'color: red');
