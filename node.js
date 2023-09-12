@@ -600,7 +600,7 @@ const paras = document.querySelectorAll("p");
 //     paragraphs.innerText += ' new text';
 // });
 
-const content = document.querySelector(".content");
+// const content = document.querySelector(".content");
 
 // console.log(content.innerHTML);
 
@@ -622,8 +622,30 @@ const person = ["marvel", "stallion", "okedo", "sparrow", "shaun"];
 
 const error = document.querySelector('.error');
 
-console.log(error.getAttribute('class'));
+// console.log(error.getAttribute('class'));
 
-error.setAttribute('class', 'comment')
+// error.setAttribute('class', 'comment')
 
-error.setAttribute('style', 'color: red');
+// error.setAttribute('style', 'color: red');
+
+const title = document.querySelector('h1');
+
+// title.setAttribute('style', 'margin: 50px');
+
+// console.log(title.style);
+// console.log(title.style.color);
+
+// title.style.margin = '200px';
+// title.style.color = 'crimson';
+// title.style.fontSize = '60px';
+// title.style.color = '';
+
+const content = document.querySelector('p');
+
+// console.log(content.classList);
+
+content.classList.add('success');
+
+content.classList.remove('success');
+
+content.classList.add('error');
