@@ -651,20 +651,28 @@
 // content.classList.add('error');
 
 // challenge
-const contents = document.querySelectorAll("p");
+// const contents = document.querySelectorAll("p");
 
-contents.forEach(p => {
+// contents.forEach(p => {
     // console.log(p.textContent);
-    if(p.textContent.includes('error')){
+    // if(p.textContent.includes('error')){
         // console.log('error class');
-        p.classList.add('error');
-    }
+        // p.classList.add('error');
+    // }
 
-    else if(p.textContent.includes('success')){
+    // else if(p.textContent.includes('success')){
         // console.log('success text');
-        p.classList.add('success');
-    }
+    //     p.classList.add('success');
+    // }
     // else{
     //     console.log('no class');
     // }
-});
+// });
+
+const article = document.querySelector('article');
+
+console.log(article.children);
+
+// CONVERT HTML COLLECTION TO ARRAY
+
+console.log(Array.from(article.children));
