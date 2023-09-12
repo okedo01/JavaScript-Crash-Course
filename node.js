@@ -569,14 +569,36 @@
 
 // console.log(title);
 
-const error = document.getElementsByClassName('error');
+// const error = document.getElementsByClassName('error');
 
-console.log(error);
+// console.log(error);
+
+// console.log(error[1]);
 
 // you cant use foreach method in HTML collection
-error.forEach(function(errors){
-    console.log(errors);
-})
+// error.forEach(function(errors){
+//     console.log(errors);
+// })
+
+// const paras = document.getElementsByTagName('p');
+
+// console.log(paras);
+
+// console.log(paras[1]);
+
+// grab inner text
+
+// const para = document.querySelector('p');
+
+// console.log(para.innerText);
+
+// para.innerText = 'ninjas are awesome';
+
+const paras = document.querySelectorAll('p');
+
+paras.forEach(paragraphs => {
+    console.log(paragraphs.innerText);
+});
     
 
 
