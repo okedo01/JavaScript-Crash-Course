@@ -580,25 +580,12 @@
 //     console.log(errors);
 // })
 
-// const paras = document.getElementsByTagName('p');
+const paras = document.getElementsByTagName('p');
 
-// console.log(paras);
+console.log(paras);
 
-// console.log(paras[1]);
+console.log(paras[1]);
 
-// grab inner text
 
-// const para = document.querySelector('p');
-
-// console.log(para.innerText);
-
-// para.innerText = 'ninjas are awesome';
-
-const paras = document.querySelectorAll('p');
-
-paras.forEach(paragraphs => {
-    console.log(paragraphs.innerText);
-});
-    
 
 
