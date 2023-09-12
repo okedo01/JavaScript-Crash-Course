@@ -1,7 +1,9 @@
 .success{
     color: crimson;
+    border: 2px dashed crimson;
 }
 
 .error{
     color: yellow;
+    border: 2px yellow dashed;
 }

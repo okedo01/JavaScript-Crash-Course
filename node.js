@@ -593,7 +593,7 @@
 
 // para.innerText = 'ninjas are awesome';
 
-const paras = document.querySelectorAll("p");
+// const paras = document.querySelectorAll("p");
 
 // paras.forEach(paragraphs => {
 //     console.log(paragraphs.innerText);
@@ -606,7 +606,7 @@ const paras = document.querySelectorAll("p");
 
 // content.innerHTML += 'new html';
 
-const person = ["marvel", "stallion", "okedo", "sparrow", "shaun"];
+// const person = ["marvel", "stallion", "okedo", "sparrow", "shaun"];
 
 // person.forEach(people => {
 //     content.innerHTML += `<p> ${people}</p>`;
@@ -620,7 +620,7 @@ const person = ["marvel", "stallion", "okedo", "sparrow", "shaun"];
 
 // link.innerText = 'frontend mentor';
 
-const error = document.querySelector('.error');
+// const error = document.querySelector('.error');
 
 // console.log(error.getAttribute('class'));
 
@@ -628,7 +628,7 @@ const error = document.querySelector('.error');
 
 // error.setAttribute('style', 'color: red');
 
-const title = document.querySelector('h1');
+// const title = document.querySelector('h1');
 
 // title.setAttribute('style', 'margin: 50px');
 
@@ -640,12 +640,31 @@ const title = document.querySelector('h1');
 // title.style.fontSize = '60px';
 // title.style.color = '';
 
-const content = document.querySelector('p');
+// const content = document.querySelectorAll('p');
 
 // console.log(content.classList);
 
-content.classList.add('success');
+// content.classList.add('success');
 
-content.classList.remove('success');
+// content.classList.remove('success');
 
-content.classList.add('error');
+// content.classList.add('error');
+
+// challenge
+const contents = document.querySelectorAll("p");
+
+contents.forEach(p => {
+    // console.log(p.textContent);
+    if(p.textContent.includes('error')){
+        // console.log('error class');
+        p.classList.add('error');
+    }
+
+    else if(p.textContent.includes('success')){
+        // console.log('success text');
+        p.classList.add('success');
+    }
+    // else{
+    //     console.log('no class');
+    // }
+});
