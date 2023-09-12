@@ -387,7 +387,6 @@
 // const result = bill([10, 15, 30], 0.2);
 // console.log(result);
 
-
 // arrow function
 
 // const bill = (products, tax) =>  {
@@ -447,7 +446,7 @@
 //     // create html templete
 //     html += `<li style = "color: purple";> ${person} </li>`;
 // });
-    
+
 // console.log(html);
 // ul.innerHTML = html;
 
@@ -580,12 +579,35 @@
 //     console.log(errors);
 // })
 
-const paras = document.getElementsByTagName('p');
+// const paras = document.getElementsByTagName('p');
 
-console.log(paras);
+// console.log(paras);
 
-console.log(paras[1]);
+// console.log(paras[1]);
 
+// grab inner text
 
+// const para = document.querySelector('p');
 
+// console.log(para.innerText);
 
+// para.innerText = 'ninjas are awesome';
+
+const paras = document.querySelectorAll("p");
+
+// paras.forEach(paragraphs => {
+//     console.log(paragraphs.innerText);
+//     paragraphs.innerText += ' new text';
+// });
+
+const content = document.querySelector(".content");
+
+// console.log(content.innerHTML);
+
+// content.innerHTML += 'new html';
+
+const person = ["marvel", "stallion", "okedo", "sparrow", "shaun"];
+
+person.forEach((people) => {
+    content.innerHTML += `<p> ${people}</p>`;
+});
