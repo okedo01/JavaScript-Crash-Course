@@ -676,3 +676,7 @@ console.log(article.children);
 // CONVERT HTML COLLECTION TO ARRAY
 
 console.log(Array.from(article.children));
+
+Array.from(article.children).forEach(child => {
+    child.classList.add('child-element');
+});
