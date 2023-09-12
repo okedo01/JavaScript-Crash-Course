@@ -680,3 +680,9 @@ console.log(Array.from(article.children));
 Array.from(article.children).forEach(child => {
     child.classList.add('child-element');
 });
+
+const title = document.querySelector('h2');
+
+console.log(article.parentElement);
+
+console.log(title.nextElementSibling);
