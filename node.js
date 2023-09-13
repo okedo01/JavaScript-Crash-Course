@@ -693,23 +693,23 @@
 
 // ul.remove();
 
-const para = document.querySelector('p');
+// const para = document.querySelector('p');
 
-const head = document.querySelector('h1');
+// const head = document.querySelector('h1');
 
-const ul = document.querySelector('ul');
+// const ul = document.querySelector('ul');
 
-const button = document.querySelector('button');
+// const button = document.querySelector('button');
 
-button.addEventListener('click', () => {
+// button.addEventListener('click', () => {
     // ul.innerHTML += `<li> something new </li>`;
     // head.innerHTML += `<h1> New Header </h1>`;
     // para.innerHTML += `<p> item picked </p>`;
-    const li = document.createElement('li');
-    li.textContent = 'something new to do';
+    // const li = document.createElement('li');
+    // li.textContent = 'something new to do';
     // ul.append(li);
-    ul.prepend(li);
-});
+    // ul.prepend(li);
+// });
 
 // const items = document.querySelectorAll('li');
 
@@ -722,9 +722,22 @@ button.addEventListener('click', () => {
 //    });
 // });
 
-ul.addEventListener('click', e => {
-    console.log(e.target);
-    if(e.target.tagName === 'LI'){
-        e.target.remove();
-    }
+// ul.addEventListener('click', e => {
+//     console.log(e.target);
+//     if(e.target.tagName === 'LI'){
+//         e.target.remove();
+//     }
+// });
+
+const copy = document.querySelector('.copy-me');
+
+copy.addEventListener('copy', () =>{
+    console.log('my contents are copyright');
+});
+
+const box = document.querySelector('.box');
+
+box.addEventListener('mousemove', e => {
+    // console.log(e.offsetX, e.offsetY);
+    box.textContent = `x position is: ${e.offsetX}, y position is: ${e.offsetY}`;
 });

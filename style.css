@@ -13,10 +13,9 @@ button {
   border: 1px solid #ccc;
 }
 
-ul li {
-  list-style-type: none;
-  margin: 15px auto;
-  padding: 15px 12px;
+.box {
+  margin: 15px;
+  padding: 150px;
   max-width: 250px;
   background-color: #ccc;
   border: 1px solid green;
