@@ -669,20 +669,28 @@
     // }
 // });
 
-const article = document.querySelector('article');
+// const article = document.querySelector('article');
 
-console.log(article.children);
+// console.log(article.children);
 
 // CONVERT HTML COLLECTION TO ARRAY
 
-console.log(Array.from(article.children));
+// console.log(Array.from(article.children));
 
-Array.from(article.children).forEach(child => {
-    child.classList.add('child-element');
+// Array.from(article.children).forEach(child => {
+//     child.classList.add('child-element');
+// });
+
+// const title = document.querySelector('h2');
+
+// console.log(article.parentElement);
+
+// console.log(title.nextElementSibling);
+
+// event clicks
+
+const button = document.querySelector('button');
+
+button.addEventListener('click', () => {
+    console.log('you clicked me');
 });
-
-const title = document.querySelector('h2');
-
-console.log(article.parentElement);
-
-console.log(title.nextElementSibling);
