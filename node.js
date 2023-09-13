@@ -707,7 +707,8 @@ button.addEventListener('click', () => {
     // para.innerHTML += `<p> item picked </p>`;
     const li = document.createElement('li');
     li.textContent = 'something new to do';
-    ul.append(li);
+    // ul.append(li);
+    ul.prepend(li);
 });
 
 const items = document.querySelectorAll('li');
@@ -716,5 +717,11 @@ items.forEach(item => {
    item.addEventListener('click', e => {
     e.target.style.textDecoration = 'line-through';
     e.target.remove();
+    console.log('event in LI');
+    e.stopPropagation();
    });
+});
+
+ul.addEventListener('click', e => {
+    console.log('event in UL');
 });
