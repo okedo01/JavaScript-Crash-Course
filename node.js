@@ -689,10 +689,22 @@
 
 // event clicks
 
+// const ul = document.querySelector('ul');
+
+// ul.remove();
+
+const para = document.querySelector('p');
+
+const head = document.querySelector('h1');
+
+const ul = document.querySelector('ul');
+
 const button = document.querySelector('button');
 
 button.addEventListener('click', () => {
-    console.log('you clicked me');
+    ul.innerHTML += `<li> something new </li>`;
+    head.innerHTML += `<h1> New Header </h1>`;
+    para.innerHTML += `<p> item picked </p>`;
 });
 
 const items = document.querySelectorAll('li');
@@ -700,5 +712,6 @@ const items = document.querySelectorAll('li');
 items.forEach(item => {
    item.addEventListener('click', e => {
     e.target.style.textDecoration = 'line-through';
+    e.target.remove();
    });
 });
