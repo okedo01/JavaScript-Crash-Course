@@ -702,9 +702,12 @@ const ul = document.querySelector('ul');
 const button = document.querySelector('button');
 
 button.addEventListener('click', () => {
-    ul.innerHTML += `<li> something new </li>`;
-    head.innerHTML += `<h1> New Header </h1>`;
-    para.innerHTML += `<p> item picked </p>`;
+    // ul.innerHTML += `<li> something new </li>`;
+    // head.innerHTML += `<h1> New Header </h1>`;
+    // para.innerHTML += `<p> item picked </p>`;
+    const li = document.createElement('li');
+    li.textContent = 'something new to do';
+    ul.append(li);
 });
 
 const items = document.querySelectorAll('li');
