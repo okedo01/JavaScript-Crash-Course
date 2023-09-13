@@ -698,7 +698,8 @@ button.addEventListener('click', () => {
 const items = document.querySelectorAll('li');
 
 items.forEach(item => {
-    item.addEventListener('click', () => {
-        console.log('item clicked');
+    item.addEventListener('click', (event) => {
+        // console.log('item clicked');
+        console.log(event.target);
     });
 });
